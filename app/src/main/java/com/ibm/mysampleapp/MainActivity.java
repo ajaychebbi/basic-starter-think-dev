@@ -186,7 +186,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     //Lets crash something!
     public void crashMe(View view) {
         int constant=10;
