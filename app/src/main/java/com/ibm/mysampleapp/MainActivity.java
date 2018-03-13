@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.ibm.mobilefirstplatform.clientsdk.android.analytics.internal.BMSAnalytics;
 import com.ibm.mobilefirstplatform.clientsdk.android.core.api.BMSClient;
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPush;
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushException;
@@ -175,6 +176,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
+            System.out.println(" ****** machi clicked da");
+            BMSAnalytics.triggerFeedbackMode();
             return true;
         }
 
