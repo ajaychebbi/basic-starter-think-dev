@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         // Core SDK must be initialized to interact with Bluemix Mobile services.
         BMSClient.getInstance().initialize(getApplicationContext(), BMSClient.REGION_US_SOUTH);
 
+
         // In this code example, Analytics is configured to record lifecycle events.
         Analytics.init(getApplication(), getString(R.string.app_name), getString(R.string.analyticsApiKey), false, Analytics.DeviceEvent.LIFECYCLE);
 
