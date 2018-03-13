@@ -27,7 +27,7 @@ The Basic IBM Cloud Mobile Starter project has integration points (by default) f
 * Open the project in Android Studio and perform a Gradle Sync.
 * There is no configuration in the Basic starter if there is no Mobile Foundation Service. Incase Mobile Foundation is added then follow the below pre steps.
 
-##### Steps (If you have IBM Cloud Mobile Foundation (Optional)):
+##### Steps (IBM Cloud Mobile Foundation (Optional)):
 
 * Goto the project folder and find a shell script by name **mfpregisterapp.sh** and ensure that you have execute and write permissions in order to run the script.
 * run **mfpregisterapp.sh**. This should set up the Mobile Foundation prereqs for running the starter
