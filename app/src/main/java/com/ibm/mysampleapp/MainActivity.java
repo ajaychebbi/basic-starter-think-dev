@@ -185,6 +185,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+
     //Lets crash something!
     public void crashMe(View view) {
         int constant=10;
