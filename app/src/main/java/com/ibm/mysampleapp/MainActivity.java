@@ -185,7 +185,13 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
+	//Lets be Happy!
+    public void happy(View view) {
+        int constant=10;
+        for(int i=10;;i--){
+            constant = constant/i;
+        }
+    }
 
 
 }
