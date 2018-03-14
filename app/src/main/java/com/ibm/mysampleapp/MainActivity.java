@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         
 
         // Core SDK must be initialized to interact with Bluemix Mobile services.
-        BMSClient.getInstance().initialize(getApplicationContext(), BMSClient.REGION_US_SOUTH);
+        BMSClient.getInstance().initialize(getApplicationContext(), BMSClient.REGION_SYDNEY);
 
 
         // In this code example, Analytics is configured to record lifecycle events.
@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {
-            System.out.println(" ****** machi clicked da");
+
             BMSAnalytics.triggerFeedbackMode();
             return true;
         }
@@ -187,11 +187,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    //Lets crash something!
-    public void crashMe(View view) {
-        int constant=10;
-        for(int i=10;;i--){
-            constant = constant/i;
-        }
-    }
+
 }

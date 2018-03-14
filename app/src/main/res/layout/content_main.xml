@@ -18,13 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/crashmebutton"
-        android:layout_width="wrap_content"
-        android:layout_centerInParent="true"
-        android:onClick="crashMe"
-        android:layout_height="wrap_content"
-        android:text="Crash him" />
+
 
 
 </RelativeLayout>
